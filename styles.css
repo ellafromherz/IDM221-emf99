@@ -10,20 +10,20 @@
 }
 
 /* text properties */
-h1 { 
+h1.homepage { 
     font-family: 'DmSerifDisplay';
     font-weight: bolder;
     font-size: 17pt;
 }
 
-h3 {
+h3.homepage {
     font-family: 'Poppins';
     font-weight: 400; 
     font-size: 10pt;
 }
 
 /* everything on one line */
-h1, h3 {
+h1.homepage, h3.homepage {
     display: inline;
     float:left;
     text-align: right;
