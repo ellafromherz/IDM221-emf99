@@ -34,6 +34,21 @@ h1, h3 {
     padding: 0
 }
 
+/* styles, decoration, color */
+
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
 /* border */
 hr.solid {
 border-bottom: 0.25px dotted black;
