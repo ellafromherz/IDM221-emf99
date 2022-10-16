@@ -10,24 +10,24 @@
 }
 
 /* text properties */
-h1.homepage { 
+.title { 
     font-family: 'DmSerifDisplay';
     font-weight: bolder;
-    font-size: 17pt;
+    font-size: 5pt;
 }
 
-h3.homepage {
+h3 {
     font-family: 'Poppins';
-    font-weight: 400; 
-    font-size: 10pt;
+    font-weight: 450; 
+    font-size: 5pt;
+    text-align: right;
 }
 
 /* everything on one line */
-h1.homepage, h3.homepage {
-    display: inline;
-    float:left;
+.homepage, .title {
     text-align: right;
-    width: 20%;
+    display: inline-block;
+    width: 23%;
     height: 20px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -49,7 +49,92 @@ a:visited {
 }
 
 
-/* border */
-hr.solid {
-border-bottom: 0.25px dotted black;
+
+/* Gallery Page */
+.Gallery {
+    font-family: 'DmSerifDisplay';
+    font-weight: bolder;
+    font-size: 13pt;
+    text-align: center;
+}
+
+.titleG {
+    font-family: 'DmSerifDisplay';
+    font-weight: bolder;
+    font-size: 5pt;
+    text-align: left;
+}
+.titleG, .homepageG {
+    text-align: center;
+    display: inline-block;
+    width: 23%;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0
+}
+
+
+/* About me page */
+.AboutMe {
+    font-family: 'DmSerifDisplay';
+    font-weight: bolder;
+    font-size: 13pt;
+    text-align: center;
+}
+
+p.about {
+    font-family: 'Poppins';
+    font-weight: 450; 
+    font-size: 10pt;
+    text-align: center;
+}
+.titleA {
+    font-family: 'DmSerifDisplay';
+    font-weight: bolder;
+    font-size: 5pt;
+    text-align: left;
+}
+
+.titleA, .homepageA {
+    text-align: center;
+    display: inline-block;
+    width: 23%;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0
+}
+
+
+/* Contact Page */
+.Contact {
+    font-family: 'DmSerifDisplay';
+    font-weight: bolder;
+    font-size: 13pt;
+    text-align: center;
+}
+
+p.Contact {
+    font-family: 'Poppins';
+    font-weight: 450; 
+    font-size: 10pt;
+    text-align: center;
+}
+
+.titleC {
+    font-family: 'DmSerifDisplay';
+    font-weight: bolder;
+    font-size: 5pt;
+    text-align: left;
+}
+
+.titleC, .homepageC {
+    text-align: center;
+    display: inline-block;
+    width: 23%;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0
 }
