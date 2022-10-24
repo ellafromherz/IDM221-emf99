@@ -17,7 +17,7 @@
     text-align: left;
 }
 
-h3 {
+ul {
     font-family: 'Poppins';
     font-weight: 450; 
     font-size: 5pt;
@@ -51,22 +51,24 @@ a:visited {
 }
 
 
-
-/* Gallery Page */
-.Gallery {
+/* headers */
+.Gallery, .AboutMe, .Contact {
     font-family: 'DmSerifDisplay';
     font-weight: bolder;
     font-size: 10pt;
     text-align: center;
 }
 
-.titleG {
+/* titles */
+.titleG, .titleA, .titleC {
     font-family: 'DmSerifDisplay';
     font-weight: bolder;
     font-size: 5pt;
     text-align: left;
 }
-.titleG, .homepageG {
+
+/* headers */
+.titleG, .homepageG,.titleA, .homepageA, .titleC, .homepageC {
     text-align: center;
     display: inline-block;
     width: 23%;
@@ -76,67 +78,10 @@ a:visited {
     padding: 0
 }
 
-
-/* About me page */
-.AboutMe {
-    font-family: 'DmSerifDisplay';
-    font-weight: bolder;
-    font-size: 10pt;
-    text-align: center;
-}
-
-p.about {
+/* paragraphs on pages */
+p.about, p.Contact {
     font-family: 'Poppins';
     font-weight: 450; 
     font-size: 8pt;
     text-align: center;
-}
-.titleA {
-    font-family: 'DmSerifDisplay';
-    font-weight: bolder;
-    font-size: 5pt;
-    text-align: left;
-}
-
-.titleA, .homepageA {
-    text-align: center;
-    display: inline-block;
-    width: 23%;
-    height: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding: 0
-}
-
-
-/* Contact Page */
-.Contact {
-    font-family: 'DmSerifDisplay';
-    font-weight: bolder;
-    font-size: 10pt;
-    text-align: center;
-}
-
-p.Contact {
-    font-family: 'Poppins';
-    font-weight: 450; 
-    font-size: 8pt;
-    text-align: center;
-}
-
-.titleC {
-    font-family: 'DmSerifDisplay';
-    font-weight: bolder;
-    font-size: 5pt;
-    text-align: left;
-}
-
-.titleC, .homepageC {
-    text-align: center;
-    display: inline-block;
-    width: 23%;
-    height: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding: 0
 }
