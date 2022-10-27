@@ -9,30 +9,59 @@
     src: url('fonts/webfontkit-20221014-183456/poppins-thin-webfont.woff') format ("woff");
 }
 
+* {
+    box-sizing: border-box;
+}
+
 /* text properties */
 .title { 
+    display: flex;
     font-family: 'DmSerifDisplay';
     font-weight: bolder;
     font-size: 5pt;
     text-align: left;
+    margin: 1rem 1rem;
+    padding: 3rem
 }
 
-ul {
+/* menu stye */
+ul.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    column-gap: 1rem 1rem;
+}
+
+ul.menu li a {
     font-family: 'Poppins';
     font-weight: 450; 
     font-size: 5pt;
     text-align: right;
 }
 
+/* contact links */
+ul.contact li {
+    list-style: none;
+    display: inline-block;
+    font-family: 'Poppins';
+    font-weight: 450; 
+    font-size: 7pt;
+    text-align: right;
+}
+
+.homepagepic {
+    display: block;
+    margin: auto auto;
+    padding: 2rem
+}
 /* menu bar, everything on one line */
 .homepage, .title {
-    text-align: center;
     display: inline-block;
     width: 23%;
-    height: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding: 0
+    height: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: .625rem;
+    padding: 0;
 }
 
 
@@ -52,30 +81,12 @@ a:visited {
 
 
 /* headers */
-.Gallery, .AboutMe, .Contact {
+.Gallery, .About, .Contact {
     font-family: 'DmSerifDisplay';
     font-weight: bolder;
     font-size: 10pt;
     text-align: center;
-}
-
-/* titles */
-.titleG, .titleA, .titleC {
-    font-family: 'DmSerifDisplay';
-    font-weight: bolder;
-    font-size: 5pt;
-    text-align: left;
-}
-
-/* headers */
-.titleG, .homepageG,.titleA, .homepageA, .titleC, .homepageC {
-    text-align: center;
-    display: inline-block;
-    width: 23%;
-    height: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding: 0
+    padding: auto;
 }
 
 /* paragraphs on pages */
@@ -84,4 +95,12 @@ p.about, p.Contact {
     font-weight: 450; 
     font-size: 8pt;
     text-align: center;
+    line-height: 1.6;
+    margin: .5rem .5rem
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  padding: .5rem;
 }
