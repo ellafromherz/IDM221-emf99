@@ -3,20 +3,40 @@
     font-family: 'DmSerifDisplay';
     src: url('fonts/webfontkit-20221014-183925/dmserifdisplay-regular-webfont.woff') format('woff');
 }
+
+@font-face {
+    font-family: 'Barrio';
+    src: url('fonts/webfontkit-20221109-160210/barrio-regular-webfont.woff') format('woff');
+}
+
 /* Body font (has variability) */
 @font-face {
     font-family: 'Poppins';
-    src: url('fonts/webfontkit-20221014-183456/poppins-thin-webfont.woff') format ("woff");
+    src: url('fonts/webfontkit-20221014-183456/poppins-thin-webfont.woff') format ('woff');
+}
+
+:root {
+    --color-screen: #E8E6EE;
+    --color-text: #C22424;
+    --color-shadow: #F2A3FF;
+
+    --background: var(--color-screen);
+    --text: var(--color-text);
+    --shadow: var(--color-shadow);
 }
 
 * {
     box-sizing: border-box;
 }
 
+body {
+    background-color: var(--background);
+}
+
 /* text properties */
 .title { 
     display: flex;
-    font-family: 'DmSerifDisplay';
+    font-family: 'Barrio';
     font-weight: bolder;
     font-size: 5pt;
     text-align: left;
@@ -37,6 +57,7 @@ ul.menu li a {
     font-weight: 450; 
     font-size: 5pt;
     text-align: right;
+    color: var(--shadow)
 }
 
 /* contact links */
@@ -82,15 +103,18 @@ a:visited {
 
 /* headers */
 .Gallery, .About, .Contact {
-    font-family: 'DmSerifDisplay';
+    font-family: 'Barrio';
     font-weight: bolder;
     font-size: 10pt;
     text-align: center;
     padding: auto;
+    color: var(--color-text);
+    text-shadow: -3px 0px var(--color-shadow);
 }
 
 /* paragraphs on pages */
 p.about, p.Contact {
+    color: var(--color-shadow);
     font-family: 'Poppins';
     font-weight: 450; 
     font-size: 8pt;
