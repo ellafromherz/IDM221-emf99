@@ -70,8 +70,9 @@ img.menubar {
 }
 
 .pink {
-    background: #F2A3FF;
+    background: #E8E6EE;
 }
+
 /* menu stye */
 ul.menu li {
     display: inline-block;
@@ -165,4 +166,13 @@ p.about {
     line-height: 1.7;
     margin: 1rem 1rem;
     padding: 1rem 1rem;
+}
+
+/*images*/
+img.papersource, img.holidaycollection, img.sparkcreativity, img.p1, img.p2, img.p3, img.p4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .5rem;
+    margin: 2rem;
 }
