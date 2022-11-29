@@ -161,6 +161,7 @@ p.about {
     font-weight: 450; 
     font-size: 8pt;
     text-align: center;
+    text-shadow: -1px 0px var(--color-shadow);
     line-height: 1.7;
     margin: 1rem 1rem;
     padding: 1rem 1rem;
