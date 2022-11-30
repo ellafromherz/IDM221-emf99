@@ -39,7 +39,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: .5rem;
-    padding: 1rem
+    padding: .5rem
 }
 
 .menubar {
@@ -85,7 +85,6 @@ p.x {
     text-shadow: -2px 0px var(--color-shadow);
     display: flex;
     justify-content: right;
-    align-items: right;
     margin: .5rem;
     padding: 3rem .5rem .5rem .5rem;
 }
@@ -149,7 +148,7 @@ h1 {
     padding: 1rem;
     margin: 1rem;
 }
-.Gallery, .About, .Contact {
+.gallery, .about, .contact {
     color: var(--color-text);
     font-family: 'Barrio';
     font-weight: bolder;
@@ -158,10 +157,6 @@ h1 {
     text-shadow: -3px 0px var(--color-shadow)
 }
 
-h2 {
-    margin: .5rem .5rem;
-    padding: .5rem .5rem;
-}
 
 /* paragraphs on pages */
 p.about {
