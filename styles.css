@@ -47,6 +47,10 @@ body {
     align-items: center;
 }
 
+.logo, img.menubar{
+    background: var(--color-screen);
+}
+
 
 .wrapper {
     display: flex;
@@ -66,12 +70,17 @@ body {
 /* menu stye */
 ul.menu li {
     display: inline-block;
-    color: var(--color-shadow);
     font-family: 'Poppins';
     font-weight: 450; 
     font-size: 12pt;
     list-style: none;
     padding: .5rem;
+}
+
+li {
+    background: var(--color-screen);
+    color: var(--color-text);
+    text-shadow: -1.5px 0px var(--color-shadow);
 }
 
 ul.menu {
@@ -88,7 +97,7 @@ ul.menu {
 /* contact links */
 ul.contact li {
     display: inline-block;
-    color: var(--color-shadow);
+    color: var(--color-text);
     font-family: 'Poppins';
     font-weight: 450; 
     font-size: 12pt;
@@ -117,13 +126,13 @@ ul.contact {
 
 /* unvisited link */
 a:link {
-    color: var(--color-shadow);
+    color: var(--color-text);
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: var(--color-shadow);
+    color: var(--color-text);
     text-decoration: none;
 }
 
@@ -149,6 +158,7 @@ h2 {
 
 /* paragraphs on pages */
 p.about {
+    background: var(--color-screen);
     color: var(--color-text);
     font-family: 'Poppins';
     font-weight: 450; 
