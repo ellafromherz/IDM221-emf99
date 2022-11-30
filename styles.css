@@ -27,7 +27,7 @@
 
 body {
     background-color: var(--background);
-    background-image: url('images/stars\ copy.png');
+    background-image: url('images/stars2.png');
     background-repeat: repeat-y;
     background-position: 25% 75%;
     margin: 1rem 1rem;
@@ -38,7 +38,7 @@ body {
 .title { 
     display: flex;
     justify-content: space-between;
-    margin: 1rem 1rem;
+    margin: .5rem;
     padding: 1rem
 }
 
