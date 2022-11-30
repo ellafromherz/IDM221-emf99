@@ -69,7 +69,7 @@ ul.menu li {
     color: var(--color-shadow);
     font-family: 'Poppins';
     font-weight: 450; 
-    font-size: 7pt;
+    font-size: 12pt;
     list-style: none;
     padding: .5rem;
 }
@@ -91,7 +91,7 @@ ul.contact li {
     color: var(--color-shadow);
     font-family: 'Poppins';
     font-weight: 450; 
-    font-size: 7pt;
+    font-size: 12pt;
     list-style: none;
     padding: .5rem;
 }
@@ -137,7 +137,7 @@ h1 {
     color: var(--color-text);
     font-family: 'Barrio';
     font-weight: bolder;
-    font-size: 10pt;
+    font-size: 14pt;
     text-align: center;
     text-shadow: -3px 0px var(--color-shadow)
 }
@@ -152,10 +152,10 @@ p.about {
     color: var(--color-text);
     font-family: 'Poppins';
     font-weight: 450; 
-    font-size: 8pt;
+    font-size: 10pt;
     text-align: center;
-    text-shadow: -1px 0px var(--color-shadow);
-    line-height: 1.7;
+    text-shadow: -1.5px 0px var(--color-shadow);
+    line-height: 1.8;
     margin: 1rem 1rem;
     padding: 1rem 1rem;
 }
