@@ -67,7 +67,7 @@ ul.menu li {
     display: inline-block;
     font-family: 'Poppins';
     font-weight: 450; 
-    font-size: 14pt;
+    font-size: 16pt;
     list-style: none;
     padding: 2rem;
 }
@@ -80,7 +80,7 @@ li {
 
 p.x {
     font-family: 'Poppins';
-    font-size: 30px;
+    font-size: 40px;
     color: var(--color-text);
     text-shadow: -2px 0px var(--color-shadow);
     display: flex;
@@ -106,7 +106,7 @@ ul.contact li {
     color: var(--color-text);
     font-family: 'Poppins';
     font-weight: 450; 
-    font-size: 14pt;
+    font-size: 16pt;
     list-style: none;
     padding: 2rem;
 }
@@ -164,12 +164,12 @@ p.about {
     color: var(--color-text);
     font-family: 'Poppins';
     font-weight: 450; 
-    font-size: 12pt;
+    font-size: 14pt;
     text-align: center;
     text-shadow: -1.5px 0px var(--color-shadow);
     line-height: 1.8;
-    margin: 1rem 1rem;
-    padding: 1rem 1rem;
+    margin: .5rem;
+    padding: .5rem;
 }
 
 /*images*/
