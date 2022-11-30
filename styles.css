@@ -152,7 +152,7 @@ h1 {
     color: var(--color-text);
     font-family: 'Barrio';
     font-weight: bolder;
-    font-size: 22pt;
+    font-size: 20pt;
     text-align: center;
     text-shadow: -3px 0px var(--color-shadow)
 }
