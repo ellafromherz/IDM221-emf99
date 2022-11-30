@@ -27,39 +27,26 @@
 
 body {
     background-color: var(--background);
-    /* background-image: url('images/stars.png');*/
+    background-image: url('images/stars\ copy.png');
     background-repeat: repeat-y;
     background-position: 25% 75%;
     margin: 1rem 1rem;
     padding: .5rem;
 }
 
-/* text properties */
+/* header */
 .title { 
     display: flex;
-    font-family: 'Barrio';
-    font-weight: bolder;
-    font-size: 5pt;
-    text-align: left;
+    justify-content: space-between;
     margin: 1rem 1rem;
-    padding: 3rem
+    padding: 1rem
 }
 
-.container {
+.menubar {
     display: flex;
-    flex-direction: row;
-    width: 375px;
+    align-items: center;
 }
 
-/*img.logo{
-    display: flex;
-    justify-content: flex-start;
-}
-img.menubar {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}*/
 
 .wrapper {
     display: flex;
@@ -120,15 +107,13 @@ ul.contact {
     row-gap: 1rem;
 }
 
-
-/* menu bar, everything on one line */
-.homepage, .title {
-    display: inline-block;
-    width: 23%;
-    height: 1.25rem;
-    margin: 0;
-    padding: 0;
+.container {
+    padding: 1rem;
+    margin: 1rem;
+    display: contents;
+    flex-direction: row;
 }
+
 
 /* unvisited link */
 a:link {
@@ -144,13 +129,17 @@ a:visited {
 
 
 /* headers */
+h1 {
+    padding: 1rem;
+    margin: 1rem;
+}
 .Gallery, .About, .Contact {
     color: var(--color-text);
     font-family: 'Barrio';
     font-weight: bolder;
     font-size: 10pt;
     text-align: center;
-    text-shadow: -3px 0px var(--color-shadow);
+    text-shadow: -3px 0px var(--color-shadow)
 }
 
 h2 {
@@ -173,10 +162,13 @@ p.about {
 
 /*images*/
 img.papersource, img.holidaycollection, img.sparkcreativity, img.p1, img.p2, img.p3, img.p4 {
+    padding: .5rem;
+    margin: 1rem;
+}
+
+.galleryimages {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    padding: .5rem;
-    margin: 1rem;
 }
