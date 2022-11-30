@@ -67,7 +67,7 @@ ul.menu li {
     display: inline-block;
     font-family: 'Poppins';
     font-weight: 450; 
-    font-size: 16pt;
+    font-size: 18pt;
     list-style: none;
     padding: 2rem;
 }
@@ -106,7 +106,7 @@ ul.contact li {
     color: var(--color-text);
     font-family: 'Poppins';
     font-weight: 450; 
-    font-size: 16pt;
+    font-size: 18pt;
     list-style: none;
     padding: 2rem;
 }
@@ -152,7 +152,7 @@ h1 {
     color: var(--color-text);
     font-family: 'Barrio';
     font-weight: bolder;
-    font-size: 20pt;
+    font-size: 22pt;
     text-align: center;
     text-shadow: -3px 0px var(--color-shadow)
 }
@@ -164,7 +164,7 @@ p.about {
     color: var(--color-text);
     font-family: 'Poppins';
     font-weight: 450; 
-    font-size: 14pt;
+    font-size: 16pt;
     text-align: center;
     text-shadow: -1.5px 0px var(--color-shadow);
     line-height: 1.8;
