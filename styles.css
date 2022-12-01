@@ -7,7 +7,7 @@
 /* Body font (has variability) */
 @font-face {
     font-family: 'Poppins';
-    src: url('fonts/webfontkit-20221130-190306/') format('woff');
+    src: url('fonts/webfontkit-20221130-190306/poppins-bold-webfont.woff') format('woff');
 }
 
 /* colors */
