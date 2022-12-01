@@ -59,12 +59,12 @@ body {
 
 .box {
     width: 20rem;
-    height: 60rem;
+    height: 20rem;
 }
 
 /* menu stye */
 
-.homepage {
+.mainmenu {
     min-height: 100vh;
 }
 
