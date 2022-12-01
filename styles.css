@@ -7,7 +7,7 @@
 /* Body font (has variability) */
 @font-face {
     font-family: 'Poppins';
-    src: url('fonts/webfontkit-20221014-183456/poppins-thin-webfont.woff') format ('woff');
+    src: url('fonts/webfontkit-20221130-190306/') format('woff');
 }
 
 /* colors */
@@ -63,6 +63,11 @@ body {
 }
 
 /* menu stye */
+
+.homepage {
+    min-height: 100vh;
+}
+
 ul.menu li {
     display: inline-block;
     font-family: 'Poppins';
@@ -165,7 +170,7 @@ p.about {
     font-family: 'Poppins';
     font-weight: 450; 
     font-size: 16pt;
-    text-align: center;
+    text-align: left;
     text-shadow: -1.5px 0px var(--color-shadow);
     line-height: 1.8;
     margin: .5rem;
