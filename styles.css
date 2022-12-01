@@ -151,7 +151,7 @@ h1 {
     padding: 1rem;
     margin: 1rem;
 }
-.gallery, .about, .contact {
+.gallery, .about, .learnmore {
     color: var(--color-text);
     font-family: 'Barrio';
     font-weight: bolder;
@@ -186,6 +186,19 @@ p {
     margin: .5rem .5rem .5rem .5rem;
     padding: .5rem;
 }
+.learnmoreps .learnmorevsst{
+    background: var(--color-screen);
+    color: var(--color-text);
+    font-family: 'Poppins';
+    font-weight: 450; 
+    font-size: 14px;
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: -1.5px 0px var(--color-shadow);
+    line-height: 1.6;
+    margin: 0rem .5rem .5rem .5rem;
+    padding: 0rem .5rem .5rem .5rem;
+}
 
 h2 {
     background: var(--color-screen);
@@ -196,7 +209,7 @@ h2 {
     text-align: left;
     text-shadow: -1.5px 0px var(--color-shadow);
     line-height: 1.6;
-    margin: 1rem 1rem 0rem 1rem;
+    margin: 2rem 1rem 0rem 1rem;
     padding: .5rem;
 }
 
@@ -215,9 +228,19 @@ h2 {
 }
 
 /*images*/
-img.papersource, img.holidaycollection, img.sparkcreativity, img.p1, img.p2, img.p3, img.p4 {
+img.papersource {
     padding: .5rem;
-    margin: 1rem;
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+img.holidaycollection, img.sparkcreativity {
+    padding: .5rem;
+    margin: 2rem 1rem 0rem 1rem;
+}
+
+img.p1, img.p2, img.p3, img.p4{
+    padding: .5rem;
+    margin: 0rem 1rem 0rem 1rem;
 }
 
 .galleryimages {
