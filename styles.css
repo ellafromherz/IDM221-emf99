@@ -151,6 +151,7 @@ h1 {
     padding: 1rem;
     margin: 1rem;
 }
+
 .gallery, .about, .learnmore {
     color: var(--color-text);
     font-family: 'Barrio';
@@ -174,7 +175,7 @@ p.about {
     margin: .5rem .5rem 2rem .5rem;
     padding: .5rem;
 }
-p {
+.galleryinfo {
     background: var(--color-screen);
     color: var(--color-text);
     font-family: 'Poppins';
@@ -183,10 +184,44 @@ p {
     text-align: center;
     text-shadow: -1px 0px var(--color-shadow);
     line-height: 1.6;
-    margin: .5rem .5rem .5rem .5rem;
+    margin: 0rem .5rem 0rem .5rem;
     padding: .5rem;
 }
-.learnmoreps .learnmorevsst{
+
+.pstop, .vssttop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-screen);
+    color: var(--color-text);
+    font-family: 'Poppins';
+    font-weight: 450; 
+    font-size: 18px;
+    text-align: center;
+    text-shadow: -1px 0px var(--color-shadow);
+    line-height: 1.6;
+    margin: 1rem 1rem 0rem 1rem;
+    padding: .5rem;
+}
+
+.elp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-screen);
+    color: var(--color-text);
+    font-family: 'Poppins';
+    font-weight: 450; 
+    font-size: 18px;
+    text-align: center;
+    text-shadow: -1px 0px var(--color-shadow);
+    line-height: 1.6;
+    margin: 3rem 1rem 0rem 1rem;
+    padding: .5rem;
+}
+
+
+.ps, .vsst {
     background: var(--color-screen);
     color: var(--color-text);
     font-family: 'Poppins';
@@ -196,20 +231,23 @@ p {
     text-align: center;
     text-shadow: -1.5px 0px var(--color-shadow);
     line-height: 1.6;
-    margin: 0rem .5rem .5rem .5rem;
-    padding: 0rem .5rem .5rem .5rem;
+    margin:  0rem .5rem 1rem .5rem;
+    padding:  .5rem .5rem .5rem;
 }
 
 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: var(--color-screen);
     color: var(--color-text);
     font-family: 'Poppins';
     font-weight: 450; 
     font-size: 18px;
-    text-align: left;
+    text-align: center;
     text-shadow: -1px 0px var(--color-shadow);
     line-height: 1.6;
-    margin: 2rem 1rem 0rem 1rem;
+    margin: 5rem 1rem 0rem 1rem;
     padding: .5rem;
 }
 
