@@ -265,7 +265,27 @@ h2 {
     padding: 0rem .5rem .5rem .5rem;
 }
 
+.mixedmediacap {
+    background: var(--color-screen);
+    color: var(--color-text);
+    font-family: 'Poppins';
+    font-weight: 450; 
+    font-size: 11px;
+    text-shadow: -1px 0px var(--color-shadow);
+    line-height: 1.6;
+    margin: 0rem 1rem 1rem 1rem;
+    padding: 0rem .5rem .5rem .5rem;
+}
+
 /*images*/
+img.mixedmedia {
+    padding: .5rem;
+    margin: 1rem 1rem 1rem 1rem;
+    outline: 7px solid var(--color-screen);
+    outline-offset: -10px;
+    background-image: url(images/glitter.jpg);
+}
+
 img.papersource {
     padding: .5rem;
     margin: 0rem 1rem 0rem 1rem;
