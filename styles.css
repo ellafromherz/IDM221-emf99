@@ -171,7 +171,7 @@ p.about {
     font-size: 14px;
     text-align: left;
     text-shadow: -1px 0px var(--color-shadow);
-    line-height: 1.6;
+    line-height: 1.7;
     margin: .5rem .5rem 2rem .5rem;
     padding: .5rem;
 }
@@ -183,7 +183,7 @@ p.about {
     font-size: 14px;
     text-align: center;
     text-shadow: -1px 0px var(--color-shadow);
-    line-height: 1.6;
+    line-height: 1.7;
     margin: 0rem .5rem 0rem .5rem;
     padding: .5rem;
 }
@@ -199,7 +199,7 @@ p.about {
     font-size: 18px;
     text-align: center;
     text-shadow: -1px 0px var(--color-shadow);
-    line-height: 1.6;
+    line-height: 1.7;
     margin: 1rem 1rem 0rem 1rem;
     padding: .5rem;
 }
@@ -215,7 +215,7 @@ p.about {
     font-size: 18px;
     text-align: center;
     text-shadow: -1px 0px var(--color-shadow);
-    line-height: 1.6;
+    line-height: 1.7;
     margin: 3rem 1rem 0rem 1rem;
     padding: .5rem;
 }
@@ -230,7 +230,7 @@ p.about {
     text-decoration: underline;
     text-align: center;
     text-shadow: -1.5px 0px var(--color-shadow);
-    line-height: 1.6;
+    line-height: 1.7;
     margin:  0rem .5rem 1rem .5rem;
     padding:  .5rem .5rem .5rem;
 }
@@ -246,7 +246,7 @@ h2 {
     font-size: 18px;
     text-align: center;
     text-shadow: -1px 0px var(--color-shadow);
-    line-height: 1.6;
+    line-height: 1.7;
     margin: 5rem 1rem 0rem 1rem;
     padding: .5rem;
 }
@@ -260,7 +260,7 @@ h2 {
     font-size: 14px;
     text-align: left;
     text-shadow: -1px 0px var(--color-shadow);
-    line-height: 1.6;
+    line-height: 1.7;
     margin: 0rem 1rem 1rem 1rem;
     padding: 0rem .5rem .5rem .5rem;
 }
@@ -272,7 +272,7 @@ h2 {
     font-weight: 450; 
     font-size: 11px;
     text-shadow: -1px 0px var(--color-shadow);
-    line-height: 1.6;
+    line-height: 1.7;
     margin: 0rem 1rem 1rem 1rem;
     padding: 0rem .5rem .5rem .5rem;
 }
