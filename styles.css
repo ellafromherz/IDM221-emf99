@@ -79,7 +79,7 @@ ul.menu li {
 li {
     background: var(--color-screen);
     color: var(--color-text);
-    text-shadow: -2px 0px var(--color-shadow);
+    text-shadow: -1px 0px var(--color-shadow);
 }
 
 p.x {
@@ -181,7 +181,7 @@ p {
     font-weight: 450; 
     font-size: 14px;
     text-align: center;
-    text-shadow: -1.5px 0px var(--color-shadow);
+    text-shadow: -1px 0px var(--color-shadow);
     line-height: 1.6;
     margin: .5rem .5rem .5rem .5rem;
     padding: .5rem;
@@ -207,7 +207,7 @@ h2 {
     font-weight: 450; 
     font-size: 18px;
     text-align: left;
-    text-shadow: -1.5px 0px var(--color-shadow);
+    text-shadow: -1px 0px var(--color-shadow);
     line-height: 1.6;
     margin: 2rem 1rem 0rem 1rem;
     padding: .5rem;
@@ -221,7 +221,7 @@ h2 {
     font-weight: 450; 
     font-size: 14px;
     text-align: left;
-    text-shadow: -1.5px 0px var(--color-shadow);
+    text-shadow: -1px 0px var(--color-shadow);
     line-height: 1.6;
     margin: 0rem 1rem 1rem 1rem;
     padding: 0rem .5rem .5rem .5rem;
