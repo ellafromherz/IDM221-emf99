@@ -169,7 +169,7 @@ p.about {
     font-weight: 450; 
     font-size: 14px;
     text-align: left;
-    text-shadow: -1.5px 0px var(--color-shadow);
+    text-shadow: -1px 0px var(--color-shadow);
     line-height: 1.6;
     margin: .5rem .5rem 2rem .5rem;
     padding: .5rem;
