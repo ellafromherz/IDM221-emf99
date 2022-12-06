@@ -152,6 +152,11 @@ h1 {
     margin: 1rem;
 }
 
+h1,about {
+    padding: 1rem;
+    margin: 1rem 1rem 0rem 1rem;
+}
+
 .gallery, .about, .learnmore {
     color: var(--color-text);
     font-family: 'Barrio';
@@ -301,9 +306,18 @@ img.p1, img.p2, img.p3, img.p4{
     margin: 0rem 1rem 0rem 1rem;
 }
 
-.galleryimages {
+
+.aboutmepic, .galleryimages{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+}
+
+.picofme { 
+    outline: 4px solid var(--color-screen);
+    border-radius: 100px;
+    outline-offset: -32px;
+    padding: .5rem;
+    margin: .25rem
 }
