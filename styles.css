@@ -152,10 +152,6 @@ h1 {
     margin: 1rem;
 }
 
-h1.about {
-    padding: 1rem;
-    margin: 1rem 1rem 0rem 1rem;
-}
 
 .gallery, .about, .learnmore {
     color: var(--color-text);
